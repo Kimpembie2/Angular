@@ -1,0 +1,28 @@
+img{
+    width: 50%;
+}
+mat-card{
+    height: 45vh;
+    width: 55%;
+    border: 1px solid black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.colonna{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.immagini{
+    display: flex;
+    justify-content: center;
+}
+.bottone{
+    display: flex;
+    justify-content: center;
+}
