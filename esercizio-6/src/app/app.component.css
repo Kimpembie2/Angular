@@ -1,0 +1,10 @@
+.img {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.paragrafo {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
