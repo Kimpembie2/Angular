@@ -15,7 +15,11 @@
                     <p>{{element.operatore}}</p>
                 </div>
                 <div [ngSwitch]="element.nazione">
-                    <p *SwitchCase="'Usa'">Usa</p><span class="badge" *SwitchCase="'Usa'"><img class="img-fluid" src="../../assets/img/usa.png" alt=""></span>
+                    <p *ngSwitchCase="'Usa'"></p><span class="badge" *ngSwitchCase="'Usa'"><img class="img-fluid" src="../../assets/img/usa.png" alt=""></span>
+                    <p *ngSwitchCase="'Brasil'"></p><span class="badge" *ngSwitchCase="'Brasil'"><img class="img-fluid" src="../../assets/img/brasil.png" alt=""></span>
+                    <p *ngSwitchCase="'France'"></p><span class="badge" *ngSwitchCase="'France'"><img class="img-fluid" src="../../assets/img/France.webp" alt=""></span>
+                    <p *ngSwitchCase="'Belgium'"></p><span class="badge" *ngSwitchCase="'Belgium'"><img class="img-fluid" src="../../assets/img/belgium.png" alt=""></span>
+                    <p *ngSwitchCase="'Singapore'"></p><span class="badge" *ngSwitchCase="'Singapore'"><img class="img-fluid" src="../../assets/img/singapore.png" alt=""></span>
                 </div>
                 <div class="bottone">
                     <button (click)="onClick(element.news)">
@@ -40,8 +44,12 @@
                 <div class="info">
                     <p>{{element.operatore}}</p>
                 </div>
-                <div>
-
+                <div [ngSwitch]="element.nazione">
+                    <p *ngSwitchCase="'Denmark'"></p><span class="badge" *ngSwitchCase="'Denmark'"><img class="img-fluid" src="../../assets/img/denmaRK.webp" alt=""></span>
+                    <p *ngSwitchCase="'Japan'"></p><span class="badge" *ngSwitchCase="'Japan'"><img class="img-fluid" src="../../assets/img/JAPAN.png" alt=""></span>
+                    <p *ngSwitchCase="'Taiwan'"></p><span class="badge" *ngSwitchCase="'Taiwan'"><img class="img-fluid" src="../../assets/img/TAIWAN.png" alt=""></span>
+                    <p *ngSwitchCase="'Argentina'"></p><span class="badge" *ngSwitchCase="'Argentina'"><img class="img-fluid" src="../../assets/img/argentina.webp" alt=""></span>
+                    <p *ngSwitchCase="'Usa'"></p><span class="badge" *ngSwitchCase="'Usa'"><img class="img-fluid" src="../../assets/img/usa.png" alt=""></span>
                 </div>
                 <div class="bottone">
                     <button (click)="onClick(element.news)">
