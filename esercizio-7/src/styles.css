@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(
+      to bottom,
+      red 0%,
+      black 40%,
+      black 60%,
+      white 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
