@@ -1,0 +1,26 @@
+<div class="container-fluid text-center pb-3" style="padding-left: 24px; padding-right: 24px;">
+    <div class="card bg-transparent m-5" *ngFor="let element of spazio">
+        <div class="row">
+            <div class="col-md-3 col-*-12 text-center d-flex flex-column divcol" style="display: flex; align-items: center; background: none;">
+                <img src="{{element.img}}" class="img-fluid" width="80%">
+            </div>
+            <div class="col-md-4 col-*-12 text-center d-flex flex-column divcol" style="display: flex; align-items: center; padding-top: 12px;background: none;">
+                <p>destinazione: {{element.destinazione}}</p>
+                <p>sistema: {{element.sistema}}</p>
+                <p>durata: {{element.durata}}</p>
+                <p>costo: {{element.costo | currency: 'EUR':'symbol'}}</p>
+            </div>
+            <div class="col-md-5 col-*-12 divcol" style="display: flex; align-items: center;padding-top: 12px;">
+                <div>
+                    <p>partenza: {{element.datapartenza | date: "medium"}}</p>
+                    <p>arrivo: {{element.dataarrivo | date: "medium"}}</p>
+                    <p>distanza: {{element.distanza}} Anni Luce</p>
+                    <p>spazioporto: {{element.spazioporto}}</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>

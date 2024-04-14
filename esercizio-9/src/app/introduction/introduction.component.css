@@ -1,0 +1,31 @@
+@font-face {
+    font-family: fontbello;
+    src: url("../../assets/fonts/spaceranger.ttf");
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: fontbello;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 50px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-family: fontbello;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: fontbello;
+    font-weight: bolder;
+    font-size: 25px;
+}
+img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
